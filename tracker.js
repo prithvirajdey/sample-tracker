@@ -8,7 +8,7 @@ var firstTimeDisplay = function(){
       const urlParams = new URLSearchParams(queryString);
       if(urlParams.get('campaign'))
       {
-        console.log('Tracker Says: Campaign ID : '+urlParams.get('campaign'));
+        console.log('Tracker Says: Campaign ID is : '+urlParams.get('campaign'));
        }
     };
     var pageNavigate = function(pageName){
